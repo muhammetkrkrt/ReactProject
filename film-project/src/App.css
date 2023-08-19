@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.films{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.card{
+    border-radius: 20px;
+    height: 500px;
+    width: 200px;
+    background-color:brown;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    align-items: center;
+}
+.films img{
+height: 330px;
+border-radius: 20px;
+width: 190px;
+
+}
+.films p,h3{
+    background-color: brown;
+    text-align: left;
+}
+
+
+.categories{
+display: flex;
+flex-direction: row;
+gap: 20px;
+
+
+}
+.categories button{
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 10px 20px;
+
+}
+
